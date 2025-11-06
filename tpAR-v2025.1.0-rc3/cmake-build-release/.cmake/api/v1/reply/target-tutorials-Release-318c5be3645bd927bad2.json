@@ -1,0 +1,84 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"src/tutorials/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "file_input_output::@668c7019a38b824a08ab"
+		},
+		{
+			"id" : "load_and_display_video::@668c7019a38b824a08ab"
+		},
+		{
+			"id" : "display_image::@668c7019a38b824a08ab"
+		},
+		{
+			"id" : "load_modify_image::@668c7019a38b824a08ab"
+		},
+		{
+			"id" : "mat_the_basic_image_container::@668c7019a38b824a08ab"
+		}
+	],
+	"id" : "tutorials::@668c7019a38b824a08ab",
+	"name" : "tutorials",
+	"paths" : 
+	{
+		"build" : "src/tutorials",
+		"source" : "src/tutorials"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "cmake-build-release/src/tutorials/CMakeFiles/tutorials",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-release/src/tutorials/CMakeFiles/tutorials.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

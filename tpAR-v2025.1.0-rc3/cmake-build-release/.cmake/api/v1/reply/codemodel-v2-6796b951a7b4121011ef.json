@@ -1,0 +1,364 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/glm-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-_deps.glm-build-Release-bef8c484ce7e113239b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake-build-release/_deps/glm-src"
+				},
+				{
+					"build" : "_deps/glm-build/glm",
+					"jsonFile" : "directory-_deps.glm-build.glm-Release-fac2a094d2a05c0eb965.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-release/_deps/glm-src/glm",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src",
+					"childIndexes" : 
+					[
+						4,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Release-b6cf2213fc5053b67c22.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "src/tp",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.tp-Release-e7ba2017e872a048c10b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/tp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						14,
+						15,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "src/tp/tracker",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src.tp.tracker-Release-141515dc5a41a110c172.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "src/tp/tracker",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "src/ogl",
+					"jsonFile" : "directory-src.ogl-Release-c6da40c70ded3d467598.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/ogl"
+				},
+				{
+					"build" : "src/tutorials",
+					"jsonFile" : "directory-src.tutorials-Release-fad90b684ebd17accbb1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "src/tutorials",
+					"targetIndexes" : 
+					[
+						5,
+						7,
+						9,
+						10,
+						11,
+						12,
+						16
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "TP_AR",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "calibration::@75794f22da53841a1510",
+					"jsonFile" : "target-calibration-Release-bdc62b3671693c26627d.json",
+					"name" : "calibration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "checkerboard::@75794f22da53841a1510",
+					"jsonFile" : "target-checkerboard-Release-bde42a0ac09fb8fbfb2c.json",
+					"name" : "checkerboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "checkerboardvideo::@75794f22da53841a1510",
+					"jsonFile" : "target-checkerboardvideo-Release-da7c4f8d7430c1c2a2bc.json",
+					"name" : "checkerboardvideo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "checkerboardvideoRectified::@75794f22da53841a1510",
+					"jsonFile" : "target-checkerboardvideoRectified-Release-2282cb2f3c25083dbad7.json",
+					"name" : "checkerboardvideoRectified",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "checkerboardvideoUndistort::@75794f22da53841a1510",
+					"jsonFile" : "target-checkerboardvideoUndistort-Release-72bd2975fdc96053839a.json",
+					"name" : "checkerboardvideoUndistort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "display_image::@668c7019a38b824a08ab",
+					"jsonFile" : "target-display_image-Release-1a3c31bfed14ac11da1a.json",
+					"name" : "display_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doc-Release-86337e32ffbe8c1ddbcc.json",
+					"name" : "doc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "file_input_output::@668c7019a38b824a08ab",
+					"jsonFile" : "target-file_input_output-Release-ccf9b476b493c5ca8ca2.json",
+					"name" : "file_input_output",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glm::@ce54d98d7b326a3e12a8",
+					"jsonFile" : "target-glm-Release-3fdde7d3dd119640dc6c.json",
+					"name" : "glm",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "load_and_display_video::@668c7019a38b824a08ab",
+					"jsonFile" : "target-load_and_display_video-Release-65fcdcf2e05386bbdc60.json",
+					"name" : "load_and_display_video",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "load_and_display_webcam::@668c7019a38b824a08ab",
+					"jsonFile" : "target-load_and_display_webcam-Release-01cfa6cfc456f8ac4c33.json",
+					"name" : "load_and_display_webcam",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "load_modify_image::@668c7019a38b824a08ab",
+					"jsonFile" : "target-load_modify_image-Release-40464163dd958d60befc.json",
+					"name" : "load_modify_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "mat_the_basic_image_container::@668c7019a38b824a08ab",
+					"jsonFile" : "target-mat_the_basic_image_container-Release-793168357632de423f5c.json",
+					"name" : "mat_the_basic_image_container",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "tracker::@08653c7ecd74df0aef2e",
+					"jsonFile" : "target-tracker-Release-b107c43a7594a2d619a9.json",
+					"name" : "tracker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "tracking::@75794f22da53841a1510",
+					"jsonFile" : "target-tracking-Release-3c37edafc5c55acc9147.json",
+					"name" : "tracking",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "trackingKLT::@75794f22da53841a1510",
+					"jsonFile" : "target-trackingKLT-Release-21b035af2d261b575209.json",
+					"name" : "trackingKLT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "tutorials::@668c7019a38b824a08ab",
+					"jsonFile" : "target-tutorials-Release-318c5be3645bd927bad2.json",
+					"name" : "tutorials",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "videoOGL::@75794f22da53841a1510",
+					"jsonFile" : "target-videoOGL-Release-2ef266621b0e9345791a.json",
+					"name" : "videoOGL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "videoOGLTeapot::@75794f22da53841a1510",
+					"jsonFile" : "target-videoOGLTeapot-Release-2798e325dd69f98ccdcb.json",
+					"name" : "videoOGLTeapot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "videoOGLTracking::@75794f22da53841a1510",
+					"jsonFile" : "target-videoOGLTracking-Release-527abb737d1d6804f477.json",
+					"name" : "videoOGLTracking",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/cmake-build-release",
+		"source" : "/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

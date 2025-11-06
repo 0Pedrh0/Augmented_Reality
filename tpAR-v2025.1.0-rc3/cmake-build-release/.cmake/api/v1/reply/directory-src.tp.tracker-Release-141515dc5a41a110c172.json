@@ -1,0 +1,65 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/tp/tracker/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libtracker.a"
+			],
+			"targetId" : "tracker::@08653c7ecd74df0aef2e",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"src/tp/tracker/tracker/Camera.hpp",
+				"src/tp/tracker/tracker/ChessboardCameraTrackerKLT.hpp",
+				"src/tp/tracker/tracker/ChessboardCameraTracker.hpp",
+				"src/tp/tracker/tracker/utility.hpp",
+				"src/tp/tracker/tracker/ICameraTracker.hpp"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/tp/tracker",
+		"source" : "src/tp/tracker"
+	}
+}
