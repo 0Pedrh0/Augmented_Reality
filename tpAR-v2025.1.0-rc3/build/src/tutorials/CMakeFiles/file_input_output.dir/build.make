@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3
+CMAKE_SOURCE_DIR = /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build
+CMAKE_BINARY_DIR = /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build
 
 # Include any dependencies generated for this target.
 include src/tutorials/CMakeFiles/file_input_output.dir/depend.make
@@ -70,18 +70,18 @@ include src/tutorials/CMakeFiles/file_input_output.dir/progress.make
 include src/tutorials/CMakeFiles/file_input_output.dir/flags.make
 
 src/tutorials/CMakeFiles/file_input_output.dir/file_input_output.cpp.o: src/tutorials/CMakeFiles/file_input_output.dir/flags.make
-src/tutorials/CMakeFiles/file_input_output.dir/file_input_output.cpp.o: /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tutorials/file_input_output.cpp
+src/tutorials/CMakeFiles/file_input_output.dir/file_input_output.cpp.o: /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tutorials/file_input_output.cpp
 src/tutorials/CMakeFiles/file_input_output.dir/file_input_output.cpp.o: src/tutorials/CMakeFiles/file_input_output.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tutorials/CMakeFiles/file_input_output.dir/file_input_output.cpp.o"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/tutorials/CMakeFiles/file_input_output.dir/file_input_output.cpp.o -MF CMakeFiles/file_input_output.dir/file_input_output.cpp.o.d -o CMakeFiles/file_input_output.dir/file_input_output.cpp.o -c /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tutorials/file_input_output.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tutorials/CMakeFiles/file_input_output.dir/file_input_output.cpp.o"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/tutorials/CMakeFiles/file_input_output.dir/file_input_output.cpp.o -MF CMakeFiles/file_input_output.dir/file_input_output.cpp.o.d -o CMakeFiles/file_input_output.dir/file_input_output.cpp.o -c /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tutorials/file_input_output.cpp
 
 src/tutorials/CMakeFiles/file_input_output.dir/file_input_output.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/file_input_output.dir/file_input_output.cpp.i"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tutorials/file_input_output.cpp > CMakeFiles/file_input_output.dir/file_input_output.cpp.i
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tutorials/file_input_output.cpp > CMakeFiles/file_input_output.dir/file_input_output.cpp.i
 
 src/tutorials/CMakeFiles/file_input_output.dir/file_input_output.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/file_input_output.dir/file_input_output.cpp.s"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tutorials/file_input_output.cpp -o CMakeFiles/file_input_output.dir/file_input_output.cpp.s
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tutorials/file_input_output.cpp -o CMakeFiles/file_input_output.dir/file_input_output.cpp.s
 
 # Object files for target file_input_output
 file_input_output_OBJECTS = \
@@ -148,18 +148,18 @@ bin/file_input_output: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.6.0
 bin/file_input_output: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 bin/file_input_output: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 bin/file_input_output: src/tutorials/CMakeFiles/file_input_output.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/file_input_output"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/file_input_output.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/file_input_output"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/file_input_output.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/tutorials/CMakeFiles/file_input_output.dir/build: bin/file_input_output
 .PHONY : src/tutorials/CMakeFiles/file_input_output.dir/build
 
 src/tutorials/CMakeFiles/file_input_output.dir/clean:
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials && $(CMAKE_COMMAND) -P CMakeFiles/file_input_output.dir/cmake_clean.cmake
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials && $(CMAKE_COMMAND) -P CMakeFiles/file_input_output.dir/cmake_clean.cmake
 .PHONY : src/tutorials/CMakeFiles/file_input_output.dir/clean
 
 src/tutorials/CMakeFiles/file_input_output.dir/depend:
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3 /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tutorials /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials/CMakeFiles/file_input_output.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3 /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tutorials /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials/CMakeFiles/file_input_output.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/tutorials/CMakeFiles/file_input_output.dir/depend
 

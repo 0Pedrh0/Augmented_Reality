@@ -1,4 +1,4 @@
-# Install script for directory: /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tutorials
+# Install script for directory: /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tutorials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DHAVE_CONFIG_H -Dglm_EXPORTS
 
-C_INCLUDES = -I/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/_deps/glm-src/glm -I/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/_deps/glm-build/glm/generated
+C_INCLUDES = -I/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/_deps/glm-src/glm -I/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/_deps/glm-build/glm/generated
 
 C_FLAGS = -O3 -DNDEBUG -std=gnu17 -fPIC
 

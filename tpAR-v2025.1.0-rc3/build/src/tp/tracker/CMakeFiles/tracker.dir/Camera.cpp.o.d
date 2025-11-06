@@ -1,7 +1,7 @@
 src/tp/tracker/CMakeFiles/tracker.dir/Camera.cpp.o: \
- /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/tracker/Camera.cpp \
+ /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/tracker/Camera.cpp \
  /usr/include/stdc-predef.h \
- /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/tracker/tracker/Camera.hpp \
+ /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/tracker/tracker/Camera.hpp \
  /usr/include/opencv4/opencv2/core/core.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \

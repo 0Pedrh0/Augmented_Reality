@@ -28,8 +28,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(glm-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/simogasp/glm.git" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "GIT_TAG" "develop"
-                    SOURCE_DIR          "/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/_deps/glm-src"
-                    BINARY_DIR          "/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/_deps/glm-build"
+                    SOURCE_DIR          "/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/_deps/glm-src"
+                    BINARY_DIR          "/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/_deps/glm-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

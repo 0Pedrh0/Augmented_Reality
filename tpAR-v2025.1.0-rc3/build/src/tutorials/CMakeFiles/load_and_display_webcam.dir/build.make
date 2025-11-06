@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3
+CMAKE_SOURCE_DIR = /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build
+CMAKE_BINARY_DIR = /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build
 
 # Include any dependencies generated for this target.
 include src/tutorials/CMakeFiles/load_and_display_webcam.dir/depend.make
@@ -70,18 +70,18 @@ include src/tutorials/CMakeFiles/load_and_display_webcam.dir/progress.make
 include src/tutorials/CMakeFiles/load_and_display_webcam.dir/flags.make
 
 src/tutorials/CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.o: src/tutorials/CMakeFiles/load_and_display_webcam.dir/flags.make
-src/tutorials/CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.o: /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tutorials/load_and_display_webcam.cpp
+src/tutorials/CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.o: /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tutorials/load_and_display_webcam.cpp
 src/tutorials/CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.o: src/tutorials/CMakeFiles/load_and_display_webcam.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tutorials/CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.o"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/tutorials/CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.o -MF CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.o.d -o CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.o -c /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tutorials/load_and_display_webcam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tutorials/CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.o"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/tutorials/CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.o -MF CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.o.d -o CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.o -c /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tutorials/load_and_display_webcam.cpp
 
 src/tutorials/CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.i"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tutorials/load_and_display_webcam.cpp > CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.i
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tutorials/load_and_display_webcam.cpp > CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.i
 
 src/tutorials/CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.s"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tutorials/load_and_display_webcam.cpp -o CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.s
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tutorials/load_and_display_webcam.cpp -o CMakeFiles/load_and_display_webcam.dir/load_and_display_webcam.cpp.s
 
 # Object files for target load_and_display_webcam
 load_and_display_webcam_OBJECTS = \
@@ -148,18 +148,18 @@ bin/load_and_display_webcam: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.6.0
 bin/load_and_display_webcam: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 bin/load_and_display_webcam: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 bin/load_and_display_webcam: src/tutorials/CMakeFiles/load_and_display_webcam.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/load_and_display_webcam"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/load_and_display_webcam.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/load_and_display_webcam"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/load_and_display_webcam.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/tutorials/CMakeFiles/load_and_display_webcam.dir/build: bin/load_and_display_webcam
 .PHONY : src/tutorials/CMakeFiles/load_and_display_webcam.dir/build
 
 src/tutorials/CMakeFiles/load_and_display_webcam.dir/clean:
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials && $(CMAKE_COMMAND) -P CMakeFiles/load_and_display_webcam.dir/cmake_clean.cmake
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials && $(CMAKE_COMMAND) -P CMakeFiles/load_and_display_webcam.dir/cmake_clean.cmake
 .PHONY : src/tutorials/CMakeFiles/load_and_display_webcam.dir/clean
 
 src/tutorials/CMakeFiles/load_and_display_webcam.dir/depend:
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3 /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tutorials /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials/CMakeFiles/load_and_display_webcam.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3 /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tutorials /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials/CMakeFiles/load_and_display_webcam.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/tutorials/CMakeFiles/load_and_display_webcam.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3
+CMAKE_SOURCE_DIR = /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build
+CMAKE_BINARY_DIR = /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build
 
 # Utility rule file for tutorials.
 
@@ -81,10 +81,10 @@ src/tutorials/CMakeFiles/tutorials.dir/build: tutorials
 .PHONY : src/tutorials/CMakeFiles/tutorials.dir/build
 
 src/tutorials/CMakeFiles/tutorials.dir/clean:
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials && $(CMAKE_COMMAND) -P CMakeFiles/tutorials.dir/cmake_clean.cmake
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials && $(CMAKE_COMMAND) -P CMakeFiles/tutorials.dir/cmake_clean.cmake
 .PHONY : src/tutorials/CMakeFiles/tutorials.dir/clean
 
 src/tutorials/CMakeFiles/tutorials.dir/depend:
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3 /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tutorials /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tutorials/CMakeFiles/tutorials.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3 /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tutorials /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tutorials/CMakeFiles/tutorials.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/tutorials/CMakeFiles/tutorials.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3
+CMAKE_SOURCE_DIR = /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build
+CMAKE_BINARY_DIR = /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build
 
 # Utility rule file for doc.
 
@@ -67,8 +67,8 @@ include CMakeFiles/doc.dir/compiler_depend.make
 include CMakeFiles/doc.dir/progress.make
 
 CMakeFiles/doc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating API documentation with Doxygen"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/doc && /usr/bin/doxygen /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/doc/Doxyfile
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating API documentation with Doxygen"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/doc && /usr/bin/doxygen /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/doc/Doxyfile
 
 doc: CMakeFiles/doc
 doc: CMakeFiles/doc.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/doc.dir/clean:
 .PHONY : CMakeFiles/doc.dir/clean
 
 CMakeFiles/doc.dir/depend:
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3 /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3 /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/CMakeFiles/doc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3 /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3 /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/CMakeFiles/doc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/doc.dir/depend
 

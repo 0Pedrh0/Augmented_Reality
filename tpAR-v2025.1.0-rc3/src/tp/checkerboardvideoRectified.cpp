@@ -71,31 +71,35 @@ int main(int argc, char** argv)
     /******************************************************************/
     // create a window using WINDOW_NAME as name to display the image --> see namedWindow
     /******************************************************************/
-
+    namedWindow( "WINDOW_NAME", cv::WINDOW_AUTOSIZE );
 
     /******************************************************************/
     // create a second window using WINDOW_RECTIFIED as name to display the rectified image
     /******************************************************************/
-
+    namedWindow( "WINDOW_RECTIFIED", cv::WINDOW_AUTOSIZE );
 
     /******************************************************************/
     // read the input video with capture (same as before)
     /******************************************************************/
+    capture = VideoCapture(argv[1]);
 
 
     /******************************************************************/
     // check it is really opened
     /******************************************************************/
-
-
-
-
-
+     if (!capture.isOpened())
+    {
+        cerr << "Error: Cannot open video file: " << argv[1] << endl;
+        return -1;
+    }
 
     /******************************************************************/
     // create the set of 2D (arbitrary) points of the checkerboard, let's say the
     // size of the squares is 25
+    float squareSize = 25.0f;
+
     // call to calcChessboardCorners
+    calcChessboardCorners(boardSize, squareSize, objectPoints);
     /******************************************************************/
 
 
@@ -106,38 +110,41 @@ int main(int argc, char** argv)
         /******************************************************************/
         // get the new frame from capture and copy it to view
         /******************************************************************/
-
+        capture >> view;
 
         /******************************************************************/
         // if no more images to process exit the loop
         /******************************************************************/
-
-
+         if (view.empty())
+            break;
 
         /******************************************************************/
         // call the function that detects the chessboard on the image
         /******************************************************************/
-        // found = detectChessboard...
-
+        found = detectChessboard(view, pointbuf, boardSize, pattern);
 
         cout << ((!found) ? ("No ") : ("")) << "chessboard detected!" << endl;
 
         // if a chessboard is found estimate the homography and rectify the image
-        if(found)
+        if (found)
         {
             /******************************************************************/
             // estimate the homography
             // --> see findHomography
-            // https://docs.opencv.org/4.6.0/d9/d0c/group__calib3d.html#ga4abc2ece9fab9398f2e560d53c8c9780
             /******************************************************************/
+            // Convertir les points 3D en 2D (projection sur le plan)
+            vector<Point2f> objectPoints2D;
+            for (auto& p : objectPoints)
+                objectPoints2D.push_back(Point2f(p.x, p.y));
 
+            // Calcul de l’homographie entre les coins du monde et ceux de l’image
+            Mat H = findHomography(objectPoints2D, pointbuf);
 
             /******************************************************************/
             // use the estimated homography to rectify the image
             // --> see warpPerspective
-            // https://docs.opencv.org/4.6.0/da/d54/group__imgproc__transform.html#gaf73673a7e8e18ec6963e3774e6a94b87
             /******************************************************************/
-
+            warpPerspective(view, rectified, H.inv(), view.size());
         }
         else
         {
@@ -145,28 +152,28 @@ int main(int argc, char** argv)
             // otherwise copy the original image in rectified
             // Mat.copyTo()
             /******************************************************************/
-
+            view.copyTo(rectified);
         }
 
         /******************************************************************/
-        // if the chessboard is found draw the cornerns on top of it
+        // if the chessboard is found draw the corners on top of it
         // --> see drawChessboardCorners
         /******************************************************************/
-
+        drawChessboardCorners(view, boardSize, pointbuf, found);
 
         /******************************************************************/
         // show the image inside the window --> see imshow
         /******************************************************************/
-
+        imshow("Original Image", view);
 
         /******************************************************************/
         // show the rectified image inside the window --> see imshow
         /******************************************************************/
+        imshow("Rectified Image", rectified);
 
-
-        // wait 20ms for user input before processing the next frame
-        // Any user input will stop the execution
-        if(waitKey(10) >= 0)
+        // wait 10ms for user input before processing the next frame
+        // Any key input will stop the execution
+        if (waitKey(10) >= 0)
             break;
     }
 

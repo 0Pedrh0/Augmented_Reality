@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/./tracker -I/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/_deps/glm-src/glm -I/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/_deps/glm-build/glm/generated -isystem /usr/include/opencv4
+CXX_INCLUDES = -I/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/./tracker -I/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/_deps/glm-src/glm -I/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/_deps/glm-build/glm/generated -isystem /usr/include/opencv4
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -pedantic -Wno-comment -Wshadow -Wnon-virtual-dtor -Wpedantic -Wconversion -Wmisleading-indentation -Wsign-conversion -Wfloat-equal
 

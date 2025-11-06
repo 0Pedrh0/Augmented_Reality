@@ -1,4 +1,4 @@
-# Install script for directory: /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp
+# Install script for directory: /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp/tracker/cmake_install.cmake")
+  include("/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp/tracker/cmake_install.cmake")
 
 endif()
 

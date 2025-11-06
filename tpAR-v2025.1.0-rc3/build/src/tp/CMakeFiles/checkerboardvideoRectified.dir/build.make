@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3
+CMAKE_SOURCE_DIR = /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build
+CMAKE_BINARY_DIR = /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build
 
 # Include any dependencies generated for this target.
 include src/tp/CMakeFiles/checkerboardvideoRectified.dir/depend.make
@@ -70,18 +70,18 @@ include src/tp/CMakeFiles/checkerboardvideoRectified.dir/progress.make
 include src/tp/CMakeFiles/checkerboardvideoRectified.dir/flags.make
 
 src/tp/CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.o: src/tp/CMakeFiles/checkerboardvideoRectified.dir/flags.make
-src/tp/CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.o: /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/checkerboardvideoRectified.cpp
+src/tp/CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.o: /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/checkerboardvideoRectified.cpp
 src/tp/CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.o: src/tp/CMakeFiles/checkerboardvideoRectified.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tp/CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.o"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/tp/CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.o -MF CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.o.d -o CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.o -c /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/checkerboardvideoRectified.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tp/CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.o"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/tp/CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.o -MF CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.o.d -o CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.o -c /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/checkerboardvideoRectified.cpp
 
 src/tp/CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.i"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/checkerboardvideoRectified.cpp > CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.i
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/checkerboardvideoRectified.cpp > CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.i
 
 src/tp/CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.s"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/checkerboardvideoRectified.cpp -o CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.s
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/checkerboardvideoRectified.cpp -o CMakeFiles/checkerboardvideoRectified.dir/checkerboardvideoRectified.cpp.s
 
 # Object files for target checkerboardvideoRectified
 checkerboardvideoRectified_OBJECTS = \
@@ -149,18 +149,18 @@ bin/checkerboardvideoRectified: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.6
 bin/checkerboardvideoRectified: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 bin/checkerboardvideoRectified: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 bin/checkerboardvideoRectified: src/tp/CMakeFiles/checkerboardvideoRectified.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/checkerboardvideoRectified"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/checkerboardvideoRectified.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/checkerboardvideoRectified"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/checkerboardvideoRectified.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/tp/CMakeFiles/checkerboardvideoRectified.dir/build: bin/checkerboardvideoRectified
 .PHONY : src/tp/CMakeFiles/checkerboardvideoRectified.dir/build
 
 src/tp/CMakeFiles/checkerboardvideoRectified.dir/clean:
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp && $(CMAKE_COMMAND) -P CMakeFiles/checkerboardvideoRectified.dir/cmake_clean.cmake
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp && $(CMAKE_COMMAND) -P CMakeFiles/checkerboardvideoRectified.dir/cmake_clean.cmake
 .PHONY : src/tp/CMakeFiles/checkerboardvideoRectified.dir/clean
 
 src/tp/CMakeFiles/checkerboardvideoRectified.dir/depend:
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3 /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp/CMakeFiles/checkerboardvideoRectified.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3 /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp/CMakeFiles/checkerboardvideoRectified.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/tp/CMakeFiles/checkerboardvideoRectified.dir/depend
 

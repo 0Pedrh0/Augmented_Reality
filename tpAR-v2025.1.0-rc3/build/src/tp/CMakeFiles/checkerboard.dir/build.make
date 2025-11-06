@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3
+CMAKE_SOURCE_DIR = /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build
+CMAKE_BINARY_DIR = /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build
 
 # Include any dependencies generated for this target.
 include src/tp/CMakeFiles/checkerboard.dir/depend.make
@@ -70,18 +70,18 @@ include src/tp/CMakeFiles/checkerboard.dir/progress.make
 include src/tp/CMakeFiles/checkerboard.dir/flags.make
 
 src/tp/CMakeFiles/checkerboard.dir/checkerboard.cpp.o: src/tp/CMakeFiles/checkerboard.dir/flags.make
-src/tp/CMakeFiles/checkerboard.dir/checkerboard.cpp.o: /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/checkerboard.cpp
+src/tp/CMakeFiles/checkerboard.dir/checkerboard.cpp.o: /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/checkerboard.cpp
 src/tp/CMakeFiles/checkerboard.dir/checkerboard.cpp.o: src/tp/CMakeFiles/checkerboard.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tp/CMakeFiles/checkerboard.dir/checkerboard.cpp.o"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/tp/CMakeFiles/checkerboard.dir/checkerboard.cpp.o -MF CMakeFiles/checkerboard.dir/checkerboard.cpp.o.d -o CMakeFiles/checkerboard.dir/checkerboard.cpp.o -c /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/checkerboard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tp/CMakeFiles/checkerboard.dir/checkerboard.cpp.o"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/tp/CMakeFiles/checkerboard.dir/checkerboard.cpp.o -MF CMakeFiles/checkerboard.dir/checkerboard.cpp.o.d -o CMakeFiles/checkerboard.dir/checkerboard.cpp.o -c /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/checkerboard.cpp
 
 src/tp/CMakeFiles/checkerboard.dir/checkerboard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/checkerboard.dir/checkerboard.cpp.i"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/checkerboard.cpp > CMakeFiles/checkerboard.dir/checkerboard.cpp.i
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/checkerboard.cpp > CMakeFiles/checkerboard.dir/checkerboard.cpp.i
 
 src/tp/CMakeFiles/checkerboard.dir/checkerboard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/checkerboard.dir/checkerboard.cpp.s"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/checkerboard.cpp -o CMakeFiles/checkerboard.dir/checkerboard.cpp.s
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/checkerboard.cpp -o CMakeFiles/checkerboard.dir/checkerboard.cpp.s
 
 # Object files for target checkerboard
 checkerboard_OBJECTS = \
@@ -149,18 +149,18 @@ bin/checkerboard: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.6.0
 bin/checkerboard: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 bin/checkerboard: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 bin/checkerboard: src/tp/CMakeFiles/checkerboard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/checkerboard"
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/checkerboard.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/checkerboard"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/checkerboard.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/tp/CMakeFiles/checkerboard.dir/build: bin/checkerboard
 .PHONY : src/tp/CMakeFiles/checkerboard.dir/build
 
 src/tp/CMakeFiles/checkerboard.dir/clean:
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp && $(CMAKE_COMMAND) -P CMakeFiles/checkerboard.dir/cmake_clean.cmake
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp && $(CMAKE_COMMAND) -P CMakeFiles/checkerboard.dir/cmake_clean.cmake
 .PHONY : src/tp/CMakeFiles/checkerboard.dir/clean
 
 src/tp/CMakeFiles/checkerboard.dir/depend:
-	cd /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3 /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/src/tp/CMakeFiles/checkerboard.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3 /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/src/tp/CMakeFiles/checkerboard.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/tp/CMakeFiles/checkerboard.dir/depend
 

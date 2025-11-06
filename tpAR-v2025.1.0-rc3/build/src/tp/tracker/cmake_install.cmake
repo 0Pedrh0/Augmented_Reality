@@ -1,4 +1,4 @@
-# Install script for directory: /home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/tracker
+# Install script for directory: /home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/tracker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,16 +43,16 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/build/lib/libtracker.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/build/lib/libtracker.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/tracker/tracker/Camera.hpp"
-    "/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/tracker/tracker/ChessboardCameraTrackerKLT.hpp"
-    "/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/tracker/tracker/ChessboardCameraTracker.hpp"
-    "/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/tracker/tracker/utility.hpp"
-    "/home/rpe0178/Documents/Real_Aug/tpAR-v2025.1.0-rc3/src/tp/tracker/tracker/ICameraTracker.hpp"
+    "/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/tracker/tracker/Camera.hpp"
+    "/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/tracker/tracker/ChessboardCameraTrackerKLT.hpp"
+    "/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/tracker/tracker/ChessboardCameraTracker.hpp"
+    "/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/tracker/tracker/utility.hpp"
+    "/home/rpe0178/Augmented_Reality/tpAR-v2025.1.0-rc3/src/tp/tracker/tracker/ICameraTracker.hpp"
     )
 endif()
 
