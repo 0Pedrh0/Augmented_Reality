@@ -37,27 +37,28 @@ bool loadCameraParameters(const string& calibFilename, Mat& matK, Mat& dist)
     // open the file to read the parameters
     // --> see method open() of FileStorage
     /******************************************************************/
+    fs.open(calibFilename, FileStorage::READ);
 
 
     /******************************************************************/
     // check if the file has been found/opened
     // --> see isOpened()
     /******************************************************************/
-
-
-
-
+    if (!fs.isOpened()){
+        cerr << "Failed to open " << calibFilename << endl;
+    }
 
 
     /******************************************************************/
     // load the camera matrix from the tag "camera_matrix" of the file
     /******************************************************************/
+    fs["camera_matrix"] >> matK;
 
 
     /******************************************************************/
     // load the distortion coefficients from the tag "distortion_coefficients" of the file
     /******************************************************************/
-
+    fs["distortion_coefficients"] >> dist;
 
     cout << matK << endl;
     cout << dist << endl;
@@ -113,18 +114,22 @@ int main(int argc, char** argv)
     /******************************************************************/
     // create a window using WINDOW_NAME as name to display the image --> see namedWindow
     /******************************************************************/
-
+    namedWindow( "WINDOW_BASE", cv::WINDOW_AUTOSIZE );
 
     /******************************************************************/
     // read the input video with capture (same as before)
     /******************************************************************/
+    capture = VideoCapture(argv[1]);
 
 
     /******************************************************************/
     // check it is really opened
     /******************************************************************/
-
-
+     if (!capture.isOpened())
+    {
+        cerr << "Error: Cannot open video file: " << argv[1] << endl;
+        return -1;
+    }
 
 
 
@@ -133,7 +138,7 @@ int main(int argc, char** argv)
     // call to loadCameraParameters. we want to read the calibration
     // matrix in matK and the distortion coefficients in dist
     /******************************************************************/
-
+    loadCameraParameters(calibFilename, matK, dist);
 
 
 

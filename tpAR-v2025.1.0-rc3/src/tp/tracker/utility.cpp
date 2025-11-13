@@ -196,6 +196,11 @@ void calcChessboardCorners( const Size &boardSize, float squareSize, vector<Poin
                     // create a Point2f(x,y) according to the position j,i and a square
                     // size of squareSize. Add it to corners (using push_back...)
                     /******************************************************************/
+                    // Chaque point a une coordonnée (x, y)
+                    float x = j * squareSize;
+                    float y = i * squareSize;
+                    corners.push_back(Point2f(x, y));
+
 
 
                 }
@@ -210,7 +215,9 @@ void calcChessboardCorners( const Size &boardSize, float squareSize, vector<Poin
                     // that x is generate using the formula (2*j + i % 2)*squareSize
                     //  Add it to corners (using push_back...)
                     /******************************************************************/
-
+                    float x = (2 * j + (i % 2)) * squareSize;
+                    float y = i * squareSize;
+                    corners.push_back(Point2f(x, y));
 
                 }
             break;

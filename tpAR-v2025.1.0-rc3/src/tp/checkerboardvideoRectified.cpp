@@ -71,7 +71,7 @@ int main(int argc, char** argv)
     /******************************************************************/
     // create a window using WINDOW_NAME as name to display the image --> see namedWindow
     /******************************************************************/
-    namedWindow( "WINDOW_NAME", cv::WINDOW_AUTOSIZE );
+    namedWindow( "WINDOW_BASE", cv::WINDOW_AUTOSIZE );
 
     /******************************************************************/
     // create a second window using WINDOW_RECTIFIED as name to display the rectified image
@@ -99,6 +99,7 @@ int main(int argc, char** argv)
     float squareSize = 25.0f;
 
     // call to calcChessboardCorners
+    
     calcChessboardCorners(boardSize, squareSize, objectPoints);
     /******************************************************************/
 
@@ -132,13 +133,10 @@ int main(int argc, char** argv)
             // estimate the homography
             // --> see findHomography
             /******************************************************************/
-            // Convertir les points 3D en 2D (projection sur le plan)
-            vector<Point2f> objectPoints2D;
-            for (auto& p : objectPoints)
-                objectPoints2D.push_back(Point2f(p.x, p.y));
+            
 
             // Calcul de l’homographie entre les coins du monde et ceux de l’image
-            Mat H = findHomography(objectPoints2D, pointbuf);
+            Mat H = findHomography(objectPoints, pointbuf, RANSAC);
 
             /******************************************************************/
             // use the estimated homography to rectify the image
@@ -164,12 +162,12 @@ int main(int argc, char** argv)
         /******************************************************************/
         // show the image inside the window --> see imshow
         /******************************************************************/
-        imshow("Original Image", view);
+        imshow("WINDOW_BASE", view);
 
         /******************************************************************/
         // show the rectified image inside the window --> see imshow
         /******************************************************************/
-        imshow("Rectified Image", rectified);
+        imshow("WINDOW_RECTIFIED", rectified);
 
         // wait 10ms for user input before processing the next frame
         // Any key input will stop the execution
