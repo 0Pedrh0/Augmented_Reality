@@ -133,7 +133,6 @@ int main(int argc, char** argv)
 
 
 
-
     /******************************************************************/
     // call to loadCameraParameters. we want to read the calibration
     // matrix in matK and the distortion coefficients in dist
