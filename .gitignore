@@ -1,0 +1,12 @@
+# Dossiers de compilation CMake
+build/
+cmake-build-*/
+out/
+
+# Editeurs
+.vscode/
+.idea/
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
