@@ -1,50 +1,34 @@
-An Augmented Reality application
-===========================================
+# Réalité augmentée : suivi de caméra par damier (OpenCV + OpenGL)
 
-------------
-Introduction
-------------
+TP de réalité augmentée (ENSEEIHT, 2025). L'objectif est une application qui suit la caméra à l'aide d'un damier et affiche par-dessus un objet 3D (la théière OpenGL).
 
-The objective of these TP sessions is to build a simple augmented reality application using OpenCV for the camera tracking part and OpenGL for the rendering. The exercises that will be proposed are meant to gradually introduce you to the OpenCV libraries and build all the function that are needed for a camera tracker in an incremental way, so that you will be able to test and debug each function, before plugging all together in the camera tracker class.
-The main idea is to use a chessboard as a marker and render on top of that the augmented reality. The final application should render an OpenGL teapot on top of the chessboard. We will get there step by step, first detecting the chessboard, then create some basic rendering in OpenCV, and at last plugging everything in the OpenGL pipeline.
+![Aperçu](screen/Display%20window_screenshot_06.11.2025.png)
 
------------------
-Code Organization
------------------
-The directories are organized as follows:
+## Étapes réalisées (`tpAR-v2025.1.0-rc3/src/tp/`)
 
-* ``doc`` contains a pdf copy of the reduced opencv tutorials, a pdf copy of the full, original opencv tutorial, and a pdf copy of the API reference manual of opencv (ie the copy of the online documentation). 
+| Programme | Étape |
+|---|---|
+| `checkerboard.cpp` | Détection des coins d'un damier dans une image |
+| `checkerboardvideo.cpp` | Détection du damier dans un flux vidéo |
+| `checkerboardvideoRectified.cpp` | Estimation robuste de l'homographie et rectification de la perspective |
+| `calibration.cpp` | Calibrage de la caméra (paramètres intrinsèques et distorsion) |
+| `checkerboardvideoUndistort.cpp` | Correction de la distorsion optique |
+| `tracking.cpp`, `trackingKLT.cpp` | Suivi de la pose de la caméra, avec suivi des points par KLT (Kanade-Lucas-Tomasi) |
+| `videoOGL*.cpp` | Rendu OpenGL de la théière et d'objets 3D au-dessus du damier |
+| `tracker/` | Classes `Camera`, `ChessboardCameraTracker`, `ChessboardCameraTrackerKLT` et utilitaires de géométrie |
 
-* ``data`` contains some images, videos and other data that will be used through the TP. 
+## Compilation
 
-* ``src`` contains the source files that you have to modify and complete; they are organize in directories:
+```bash
+cd tpAR-v2025.1.0-rc3
+cmake --preset default   # ou : mkdir build && cd build && cmake ..
+cmake --build build
+```
 
-    * ``tutorials`` contains the code used in the tutorials, in case you need to try it;
-    * ``tp`` contains the files that you need to modify and complete through all the sessions of the TP.
+Voir [BUILD.md](tpAR-v2025.1.0-rc3/BUILD.md) pour les dépendances (OpenCV, OpenGL, GLM).
 
+## Technologies
 
---------
-Building
---------
+C++ · OpenCV · OpenGL · CMake · Géométrie projective (homographie, calibrage, estimation de pose)
 
-See [BUILD](BUILD.md) text file
-
-
--------
-License
--------
-
-See [LICENSE](LICENSE) text file
-
--------
-Authors
--------
-
-Simone Gasparini
-
-
----------
-Contact
----------
-
-Simone Gasparini simone.gasparini@enseeiht.fr
+*Squelette du TP fourni par Simone Gasparini (ENSEEIHT). Licence : voir [LICENSE](tpAR-v2025.1.0-rc3/LICENSE).*
